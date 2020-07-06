@@ -1,0 +1,19 @@
+{
+  "name": "canvas-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "now-build": "cp canvas_lib64/*so.1 node_modules/canvas/build/Release/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/node": "^1.7.1",
+    "axios": "^0.19.2",
+    "canvas": "^2.6.1",
+    "express": "^4.17.1",
+    "ordinal": "^1.0.3"
+  }
+}
